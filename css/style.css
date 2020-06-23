@@ -7,6 +7,10 @@ h1 {
     font-size: 2em;
 }
 
+h1#top {
+    margin-top: 2em;
+}
+
 h1, h2 {
     color: purple;
 }
@@ -23,6 +27,42 @@ div#divId p {
     font-size: 200%;
 }
 
+div#main-content {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+div#sidebar {
+    width: 29%;
+    float: right;
+}
+
+div#content {
+    width: 68%;
+    float: left;
+}
+
+div#three-columns {
+    margin-top: 2em;
+    width: 96%;
+}
+
+div#character-lists {
+    width: 30%;
+    float: left;
+}
+
+div#form {
+    width: 30%;
+    float: left;
+    margin: 0 3.5% 0 3.5%;
+}
+
+div#table {
+    width: 30%;
+    float: right;
+}
+
 p {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.2em;
@@ -34,7 +74,7 @@ p.important {
 }
 
 p.allMargin {
-    margin: 4em;
+    margin: 1em;
 }
 
 img.blockImage {
@@ -69,7 +109,7 @@ ul.squares {
 
 table {
     border-collapse: collapse;
-    width: 30%;
+    width: 90%;
     text-align: center;
 }
 
@@ -97,8 +137,7 @@ blockquote {
 }
 
 form {
-    width: max-content;
-    margin-left: 10px;
+    width: min-content;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
 }

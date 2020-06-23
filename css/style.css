@@ -23,6 +23,33 @@ h3 {
     text-align: center;
 }
 
+div#header {
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #33cccc;
+}
+
+div#invisible-header {
+    width: 100%;
+    visibility: hidden;
+}
+
+div#header h2, div#invisble-header h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 2em;
+    margin-left: 2%;
+}
+
+div#header img, div#invisible-header img {
+    float: left;
+    margin: 1.2em .6em 0 .75em;
+}
+
 div#divId p {
     font-size: 200%;
 }
@@ -35,6 +62,8 @@ div#main-content {
 div#sidebar {
     width: 29%;
     float: right;
+    padding: 0.5em;
+    border: 1px solid black;
 }
 
 div#content {
@@ -61,6 +90,18 @@ div#form {
 div#table {
     width: 30%;
     float: right;
+}
+
+div#subscribe img {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+div#go-to-top img {
+    bottom: 0;
+    left: 0;
+    position: fixed;
 }
 
 p {

@@ -50,12 +50,12 @@ div#header h2, div#invisible-header h2 {
     font-weight: 900;
     color: white;
     font-size: 2em;
-    margin-left: 2%;
 }
 
 div#header img, div#invisible-header img {
     float: left;
     margin: 1.2em .6em 0 .75em;
+    position: fixed;
 }
 
 div#divId p {

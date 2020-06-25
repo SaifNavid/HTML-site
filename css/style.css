@@ -81,25 +81,8 @@ div#vertical-nav ul li {
     text-align: center;
     width: 25%;
     float: left;
-    margin-bottom: .4em;
+    padding-bottom: 0.3em;
 }
-
-div#vertical-nav ul li{
-    border-bottom: 3px solid #9bf0f0;
-}
-
-div#vertical-nav ul li.odd{
-    border-bottom: 3px solid white;
-}
-
-div#vertical-nav ul li:hover{
-    border-bottom: 3px solid #9bf0f0;
-}
-
-div#vertical-nav ul li.odd:hover{
-    border-bottom: 3px solid #9bf0f0;
-}
-
 
 div#vertical-nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
@@ -109,10 +92,11 @@ div#vertical-nav ul li a {
     color: white;
     display: block;
     padding: 0.35em;
+    transition: color .5s;
 }
 
 div#vertical-nav ul li a:hover {
-    color: #9bf0f0;
+    color: #61a1a1;
 } 
 
 div#sidebar {

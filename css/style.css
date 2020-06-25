@@ -29,19 +29,22 @@ div#main-heading h1, div#main-heading h2{
 }
 
 div#header {
-    width: 100%;
     position: fixed;
+}
+
+div#header, div#invisible-header {
+    width: 100%;
     top:0;
     left: 0;
     background-color: #33cccc;
+    margin-bottom: 5em;
 }
 
 div#invisible-header {
-    width: 100%;
     visibility: hidden;
 }
 
-div#header h2, div#invisble-header h2 {
+div#header h2, div#invisible-header h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-weight: 900;
@@ -65,8 +68,7 @@ div#main-content {
 }
 
 div#vertical-nav {
-    display: inline-block;
-    clear: both;
+    width: 100%;
 }
 
 div#vertical-nav ul {
@@ -75,9 +77,16 @@ div#vertical-nav ul {
 }
 
 div#vertical-nav ul li {
-    margin-bottom: 0.25em;
-    padding: 0 .2em 0 .2em;
-    border: 1px solid black;
+    display: inline;
+    text-align: center;
+    width: 24%;
+    float: left;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+div#vertical-nav ul li:not(:last-child){
+    border-right: 1px solid white;
 }
 
 div#vertical-nav ul li a {
@@ -188,7 +197,7 @@ li.change-background:hover {
 }
 
 li.change-background:active {
-    background-color: gray;
+    opacity: 75%;
 }
 
 table {

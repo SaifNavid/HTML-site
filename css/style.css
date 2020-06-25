@@ -75,7 +75,6 @@ div#vertical-nav ul {
 }
 
 div#vertical-nav ul li {
-    background-color: #33cccc;
     margin-bottom: 0.25em;
     padding: 0 .2em 0 .2em;
     border: 1px solid black;
@@ -178,6 +177,18 @@ a:active {
 
 ul.squares {
     list-style-type: square;
+}
+
+li.change-background {
+    background-color: #33cccc;
+}
+
+li.change-background:hover {
+    opacity: 75%;
+}
+
+li.change-background:active {
+    background-color: gray;
 }
 
 table {

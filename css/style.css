@@ -99,6 +99,10 @@ div#vertical-nav ul li a {
     padding: 0.35em;
 }
 
+div#vertical-nav ul li a:hover {
+    color: rgb(252, 34, 34);
+} 
+
 div#sidebar {
     width: 29%;
     float: right;
@@ -190,14 +194,6 @@ ul.squares {
 
 li.change-background {
     background-color: #33cccc;
-}
-
-li.change-background:hover {
-    opacity: 75%;
-}
-
-li.change-background:active {
-    opacity: 75%;
 }
 
 table {

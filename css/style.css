@@ -58,6 +58,18 @@ div#header img, div#invisible-header img {
     position: fixed;
 }
 
+body {
+    background:
+        url(../images/tokyo.jpg);    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div#main-content {
+    background-color: white;
+}
+
 div#divId p {
     font-size: 200%;
 }
@@ -235,6 +247,16 @@ input[type="text"], textarea {
 
 input[type="submit"] {
     font-size: 1.25em;
+}
+
+iframe#spacjam {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+audio.audio-player {
+    display: block;
+    margin: 0 auto 0 auto;
 }
 
 legend {

@@ -160,8 +160,12 @@ div#go-to-top img {
     position: fixed;
 }
 
-div {
-    padding: 0 0.2em 0 0.2em;
+div#sidebar {
+    margin-right: 0.2em;
+}
+
+div#content, div#fgo {
+    margin-left: 0.2em;
 }
 
 p {

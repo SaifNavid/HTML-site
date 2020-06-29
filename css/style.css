@@ -160,6 +160,10 @@ div#go-to-top img {
     position: fixed;
 }
 
+div {
+    padding: 0 0.2em 0 0.2em;
+}
+
 p {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.2em;
@@ -172,6 +176,10 @@ p.important {
 
 p.allMargin {
     margin: 1em;
+}
+
+p.center {
+    text-align: center;
 }
 
 img.blockImage {
